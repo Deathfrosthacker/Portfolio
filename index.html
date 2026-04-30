@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Okech | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="logo">AO</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="https://github.com/Deathfrosthacker" target="_blank" class="hire-btn">Hire Me</a>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="badge">Available for opportunities</div>
+            <h1>Alex <span class="gradient">Okech</span></h1>
+            <p class="roles">
+                <span class="role-green">Computer Scientist</span> • 
+                <span class="role-cyan">Software Developer</span> • 
+                <span class="role-purple">Ethical Hacker</span>
+            </p>
+            <p class="bio">Building accessible, secure, and innovative software solutions. Passionate about web accessibility, cybersecurity, and creating technology that makes a difference.</p>
+            <div class="hero-btns">
+                <a href="https://github.com/Deathfrosthacker" target="_blank" class="btn btn-primary">View GitHub</a>
+                <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <h2>About <span class="gradient">Me</span></h2>
+        <div class="about-grid">
+            <div class="about-left">
+                <div class="card glow">
+                    <h3>Mission</h3>
+                    <p>As a Computer Scientist and Software Developer, I specialize in creating software that is not only functional but also accessible to everyone. My background in ethical hacking ensures that security is built into every solution from the ground up.</p>
+                </div>
+                <div class="card">
+                    <h3 class="cyan">Expertise</h3>
+                    <p>With a strong foundation in computer science principles, I develop robust applications while advocating for digital inclusivity. My work on web accessibility tools has helped make the internet more usable for people with disabilities.</p>
+                </div>
+                <div class="card">
+                    <h3 class="purple">Approach</h3>
+                    <p>I believe in security-first development, accessibility by design, and continuous learning. Every line of code I write considers both the user experience and potential vulnerabilities.</p>
+                </div>
+            </div>
+            <div class="about-right" id="skillBars">
+                <!-- Skills injected by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+        <h2>Featured <span class="gradient">Projects</span></h2>
+        <p class="section-sub">Fetched directly from my GitHub</p>
+        <div class="projects-grid" id="projectsGrid">
+            <div class="loading">Loading projects...</div>
+        </div>
+        <div class="center-btn">
+            <a href="https://github.com/Deathfrosthacker" target="_blank" class="btn btn-outline">View All Repositories</a>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills">
+        <h2>Tech <span class="gradient">Stack</span></h2>
+        <div class="skills-grid" id="skillsGrid">
+            <!-- Injected by JS -->
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2>Get in <span class="gradient">Touch</span></h2>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="card glow">
+                    <h3>Contact Information</h3>
+                    <div class="info-item">
+                        <div class="icon-box">✉</div>
+                        <div>
+                            <small>Email</small>
+                            <p>alex.okech@example.com</p>
+                        </div>
+                    </div>
+                    <a href="https://github.com/Deathfrosthacker" target="_blank" class="info-item">
+                        <div class="icon-box">⚡</div>
+                        <div>
+                            <small>GitHub</small>
+                            <p>@Deathfrosthacker</p>
+                        </div>
+                    </a>
+                    <div class="info-item">
+                        <div class="icon-box">📍</div>
+                        <div>
+                            <small>Location</small>
+                            <p>Available Worldwide</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Current Status</h3>
+                    <div class="status">
+                        <span class="pulse"></span>
+                        <p>Open to freelance and full-time opportunities</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Send a Message</h3>
+                <form id="contactForm">
+                    <input type="text" placeholder="Your name" required>
+                    <input type="email" placeholder="your@email.com" required>
+                    <textarea rows="4" placeholder="Tell me about your project..." required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Alex Okech. Built with ♥</p>
+        <a href="#" onclick="scrollToTop(); return false;" class="top-btn">↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
