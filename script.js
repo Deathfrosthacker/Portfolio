@@ -156,8 +156,3 @@ async function fetchRepos() {
 fetchRepos();
 
 // Contact form
-document.getElementById('contactForm').addEventListener('submit', (e) => {
-    e.preventDefault();
-    alert('Thanks for reaching out! This is a demo form - connect it to a backend or email service for production use.');
-    e.target.reset();
-});
