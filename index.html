@@ -123,12 +123,12 @@
             </div>
             <div class="card">
                 <h3>Send a Message</h3>
-                <form id="contactForm">
-                    <input type="text" placeholder="Your name" required>
-                    <input type="email" placeholder="your@email.com" required>
-                    <textarea rows="4" placeholder="Tell me about your project..." required></textarea>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
+                <form id="contactForm" action="https://formspree.io/f/YOUR_CODE_HERE" method="POST">
+    <input type="text" name="name" placeholder="Your name" required>
+    <input type="email" name="email" placeholder="your@email.com" required>
+    <textarea name="message" rows="4" placeholder="Tell me about your project..." required></textarea>
+    <button type="submit" class="btn btn-primary">Send Message</button>
+</form>
             </div>
         </div>
     </section>
