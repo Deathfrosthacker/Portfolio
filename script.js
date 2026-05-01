@@ -96,11 +96,11 @@ if (skillBarsContainer) observer.observe(skillBarsContainer);
 
 // Tech stack data
 const technologies = [
-    { category: 'Languages', items: ['Python', 'JavaScript', 'Java', 'C++', 'SQL', 'HTML/CSS'] },
+    { category: 'Languages', items: ['Python', 'JavaScript', 'Java', 'SQL', 'HTML/CSS'] },
     { category: 'Frontend', items: ['React', 'Next.js', 'Tailwind CSS', 'Redux', 'Framer Motion'] },
     { category: 'Backend', items: ['Node.js', 'Express', 'Django', 'REST APIs', 'GraphQL'] },
-    { category: 'Security', items: ['Penetration Testing', 'OWASP', 'Kali Linux', 'Wireshark'] },
-    { category: 'Tools', items: ['Git', 'Docker', 'Linux', 'VS Code', 'Figma'] },
+    { category: 'Security', items: ['Penetration Testing', 'OWASP', 'Wireshark'] },
+    { category: 'Tools', items: ['Git', , 'VS Code', 'Figma'] },
     { category: 'Accessibility', items: ['WCAG 2.1', 'ARIA', 'Screen Readers', 'axe-core'] }
 ];
 
