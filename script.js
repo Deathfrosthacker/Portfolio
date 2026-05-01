@@ -98,7 +98,7 @@ if (skillBarsContainer) observer.observe(skillBarsContainer);
 const technologies = [
     { category: 'Languages', items: ['Python', 'JavaScript', 'Java', 'SQL', 'HTML/CSS'] },
     { category: 'Frontend', items: ['React', 'Next.js', 'Tailwind CSS', 'Redux', 'Framer Motion'] },
-    { category: 'Backend', items: ['Node.js', 'Express', 'Django', 'REST APIs', 'GraphQL'] },
+    { category: 'Backend', items: ['Node.js', 'Flask','Express', 'Django', 'REST APIs', 'GraphQL'] },
     { category: 'Security', items: ['Penetration Testing', 'OWASP', 'Wireshark'] },
     { category: 'Tools', items: ['Git', , 'VS Code', 'Figma'] },
     { category: 'Accessibility', items: ['WCAG 2.1', 'ARIA', 'Screen Readers', 'axe-core'] }
